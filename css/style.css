@@ -1,3 +1,41 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+/* Menu de navegação*/
+.cabecalhoPrincipal .container{
+    align-items: center;
+    background: #52C2DE;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+.cabecalhoPrincipal-titulo-a{
+    color: #000000;
+    font-weight: bold;
+    font-size: 30px;
+    margin-right: 1.2rem;
+    text-decoration: none;
+}
+
+.cabecalhoPrincipal-nav{
+    display: flex;
+    list-style: none;
+}
+
+.cabecalhoPrincipal-nav-link a{
+    color: #FDFCFB;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 1.2rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.cabecalhoPrincipal-nav-link a:hover{
+    border-bottom: 2px solid #FDFCFB;
+}
+
 .rodape {
     display: flex;
     background: #FDFCFB;
