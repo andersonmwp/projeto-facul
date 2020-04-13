@@ -3,17 +3,33 @@
     background: #FDFCFB;
     align-items: center;
     padding: 20px 30px;
-    justify-content: space-between;
     border-top: 1px solid;
+    justify-content: space-around;
 }
 
 .rodape-copy {
     font-size: 18px;
     font-weight: bold;
+    padding-right: 50px;
 }
 
 .rodape-menu a {
+    color: #000000;
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
+}
+
+.rodape-menu:hover{
+    border-bottom: 2px solid;
+}
+
+.rodape-sociais {
+    width: 40%;
+}
+
+.redes-sociais{
+    width: 20%;
+    display: flex;
+    margin: 0 5px;
 }
