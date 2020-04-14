@@ -62,8 +62,9 @@ body {
     background: #FDFCFB;
 }
 
-.botao:hover {
+.botao .lupa:hover {
     background: #52C2DE;
+    color: #FDFCFB;
 }
 
 .lupa {
@@ -72,4 +73,29 @@ body {
 
 .lupa:hover {
     color: #FDFCFB;
+}
+
+.categorias {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 10px 10px;
+    font-size: 20px;
+    background: #B6E6F2;
+}
+
+.categorias-lista-background{
+    display: flex;
+    width: 50px;
+    border-radius: 5px;
+}
+
+.categorias-lista-titulo {
+    display: flex;
+    width: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000000;
+    padding: 20px 0;
 }
