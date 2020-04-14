@@ -35,3 +35,41 @@ body {
 .cabecalhoPrincipal-nav-link a:hover{
     border-bottom: 2px solid #FDFCFB;
 }
+
+/*Seção buscador*/
+.buscador{
+    background: #B6E6F2;
+    display: flex;
+    padding: 20px 30px;
+}
+
+#buscador-categoria {
+    width: 70%;
+    height: 60px;
+    margin-left: 10%;
+    padding: 16px 24px;
+    border-radius: 4px;
+    border: none;
+    font-size: 20px;
+}
+
+.botao {
+    width: 5%;
+    height: 58px;
+    margin: 0 3px;
+    border-radius: 4px;
+    border: none;
+    background: #FDFCFB;
+}
+
+.botao:hover {
+    background: #52C2DE;
+}
+
+.lupa {
+    font-size: 200%;
+}
+
+.lupa:hover {
+    color: #FDFCFB;
+}
