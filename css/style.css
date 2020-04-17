@@ -73,11 +73,13 @@ body {
     margin: 0 5px;
 }
 
+/* Seção sobre*/
 .container-sobre {
+    align-items: center;
+    background: #FDFCFB;
     display: flex;
     justify-content: space-between;
     padding: 30px 100px;
-    align-items: center;
 }
 
 .titulo-sobre {
@@ -90,4 +92,77 @@ body {
     display: flex;
     font-size: 33px;
     width: 80%;
+}
+
+/*Seção campanhas*/
+.container-campanhas {
+    align-items: center;
+    background: #FDFCFB;
+    display: flex;
+    justify-content: space-around;
+}
+
+.campanha-agasalhos {
+    align-items: center;
+    background: #73CFE6;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    margin: 20px 0 30px 0;
+    height: 350px;
+    width: 350px;
+}
+
+.campanhas-agasalhos-logo {
+    width: 80%;
+    padding-top: 35px;
+}
+
+.campanha-agasalhos-texto {
+    font-size: 20px;
+    padding-top: 30px;
+    width: 290px;
+}
+
+.campanha-criancas {
+    align-items: center;
+    background: #73CFE6;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    margin: 20px 0 30px 0;
+    height: 350px;
+    width: 350px; 
+}
+.campanha-criancas-logo {
+    width: 70%;
+    padding-top: 35px; 
+}
+
+.campanha-criancas-texto {
+    font-size: 20px;
+    padding-top: 20px;
+    width: 290px;  
+}
+
+.campanha-volutarios {
+    align-items: center;
+    background: #73CFE6;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    margin: 20px 0 30px 0;
+    height: 350px;
+    width: 350px;     
+}
+
+.campanha-vonluntarios-logo {
+    width: 70%;
+    padding-top: 35px;    
+}
+
+.campanha-voluntarios-texto {
+    font-size: 20px;
+    padding-top: 20px;
+    width: 290px;   
 }
