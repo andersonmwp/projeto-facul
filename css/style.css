@@ -72,3 +72,22 @@ body {
     display: flex;
     margin: 0 5px;
 }
+
+.container-sobre {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+    align-items: center;
+}
+
+.titulo-sobre {
+    display: flex;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.paragrafo-sobre {
+    display: flex;
+    font-size: 33px;
+    width: 80%;
+}
