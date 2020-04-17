@@ -78,7 +78,6 @@ body {
 .categorias {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
     justify-content: space-around;
     padding: 10px 10px;
     font-size: 20px;
@@ -87,8 +86,9 @@ body {
 
 .categorias-lista-background{
     display: flex;
-    width: 50px;
+    width: 70px;
     border-radius: 5px;
+    padding-left: 10px;
 }
 
 .categorias-lista-titulo {
@@ -96,6 +96,7 @@ body {
     width: 10px;
     font-size: 16px;
     text-decoration: none;
+    justify-content: space-between;
     color: #000000;
     padding: 20px 0;
 }
