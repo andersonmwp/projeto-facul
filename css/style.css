@@ -166,3 +166,75 @@ body {
     padding-top: 20px;
     width: 290px;   
 }
+
+/* Seção galeria de anúncios */
+.container-galeria {
+    background: #FDFCFB;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ 
+ 
+}
+
+.galeria-caixa-principal {
+    display: flex;
+    background: #B6E6F2;
+    justify-content: center;
+    padding: 30px 0;
+    width: 100%;
+
+}  
+
+.galeria-titulo {
+    font-size: 30px;
+    font-weight: bold;  
+}
+
+.anuncio-caixa {
+    align-items: top;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 290px;
+    padding: 20px 20px;
+    width: 450px;
+    margin: 50px;
+}
+
+.anuncio-caixa-imagem {
+    display: flex;
+    height: 50%;
+    width: 50%;
+}
+
+.anuncio-caixa-texto {
+    align-items: top;
+    font-size: 18px;
+    padding-bottom: 10px;
+    width: 200px;
+}
+
+.anuncio-caixa-botao {
+    background: #73CFE6;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    padding: 15px 60px;
+    transition: 1s background;
+    width: 50%;
+
+}
+
+.anuncio-caixa-botao:hover {
+    background: #1B6C80;
+}
+
+.anuncio-caixa-botao a {
+    color: #FDFCFB;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
