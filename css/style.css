@@ -1,7 +1,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
-/* Menu de navegação*/
+/* Seção menu de navegação */
 .cabecalhoPrincipal .container{
     align-items: center;
     background: #52C2DE;
@@ -12,8 +12,8 @@ body {
 
 .cabecalhoPrincipal-titulo-a{
     color: #000000;
-    font-weight: bold;
     font-size: 30px;
+    font-weight: bold;
     margin-right: 1.2rem;
     text-decoration: none;
 }
@@ -25,8 +25,8 @@ body {
 
 .cabecalhoPrincipal-nav-link a{
     color: #FDFCFB;
-    font-weight: bold;
     font-size: 18px;
+    font-weight: bold;
     margin-right: 1.2rem;
     text-align: center;
     text-decoration: none;
@@ -35,209 +35,7 @@ body {
 .cabecalhoPrincipal-nav-link a:hover{
     border-bottom: 2px solid #FDFCFB;
 }
-
-/*rodapé*/
-.rodape {
-    display: flex;
-    background: #FDFCFB;
-    align-items: center;
-    padding: 20px 30px;
-    border-top: 1px solid;
-    justify-content: space-around;
-}
-
-.rodape-copy {
-    font-size: 18px;
-    font-weight: bold;
-    padding-right: 50px;
-}
-
-.rodape-menu a {
-    color: #000000;
-    font-size: 20px;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.rodape-menu:hover{
-    border-bottom: 2px solid;
-}
-
-.rodape-sociais {
-    width: 40%;
-}
-
-.redes-sociais{
-    width: 20%;
-    display: flex;
-    margin: 0 5px;
-}
-
-/* Seção sobre*/
-.container-sobre {
-    align-items: center;
-    background: #FDFCFB;
-    display: flex;
-    justify-content: space-between;
-    padding: 30px 100px;
-}
-
-.titulo-sobre {
-    display: flex;
-    font-size: 48px;
-    font-weight: bold;
-}
-
-.paragrafo-sobre {
-    display: flex;
-    font-size: 33px;
-    width: 80%;
-}
-
-/*Seção campanhas*/
-.container-campanhas {
-    align-items: center;
-    background: #FDFCFB;
-    display: flex;
-    justify-content: space-around;
-}
-
-.campanha-agasalhos {
-    align-items: center;
-    background: #73CFE6;
-    border-radius: 10px;
-    display: flex;
-    flex-flow: column wrap;
-    margin: 20px 0 30px 0;
-    height: 350px;
-    width: 350px;
-}
-
-.campanhas-agasalhos-logo {
-    width: 80%;
-    padding-top: 35px;
-}
-
-.campanha-agasalhos-texto {
-    font-size: 20px;
-    padding-top: 30px;
-    width: 290px;
-}
-
-.campanha-criancas {
-    align-items: center;
-    background: #73CFE6;
-    border-radius: 10px;
-    display: flex;
-    flex-flow: column wrap;
-    margin: 20px 0 30px 0;
-    height: 350px;
-    width: 350px; 
-}
-.campanha-criancas-logo {
-    width: 70%;
-    padding-top: 35px; 
-}
-
-.campanha-criancas-texto {
-    font-size: 20px;
-    padding-top: 20px;
-    width: 290px;  
-}
-
-.campanha-volutarios {
-    align-items: center;
-    background: #73CFE6;
-    border-radius: 10px;
-    display: flex;
-    flex-flow: column wrap;
-    margin: 20px 0 30px 0;
-    height: 350px;
-    width: 350px;     
-}
-
-.campanha-vonluntarios-logo {
-    width: 70%;
-    padding-top: 35px;    
-}
-
-.campanha-voluntarios-texto {
-    font-size: 20px;
-    padding-top: 20px;
-    width: 290px;   
-}
-
-/* Seção galeria de anúncios */
-.container-galeria {
-    background: #FDFCFB;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
- 
- 
-}
-
-.galeria-caixa-principal {
-    display: flex;
-    background: #B6E6F2;
-    justify-content: center;
-    padding: 30px 0;
-    width: 100%;
-
-}  
-
-.galeria-titulo {
-    font-size: 30px;
-    font-weight: bold;  
-}
-
-.anuncio-caixa {
-    align-items: top;
-    border: 1px solid;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    height: 290px;
-    padding: 20px 20px;
-    width: 450px;
-    margin: 50px;
-}
-
-.anuncio-caixa-imagem {
-    display: flex;
-    height: 50%;
-    width: 50%;
-}
-
-.anuncio-caixa-texto {
-    align-items: top;
-    font-size: 18px;
-    padding-bottom: 10px;
-    width: 200px;
-}
-
-.anuncio-caixa-botao {
-    background: #73CFE6;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    display: flex;
-    padding: 15px 60px;
-    transition: 1s background;
-    width: 50%;
-}
-
-.anuncio-caixa-botao:hover {
-    background: #1B6C80;
-}
-
-.anuncio-caixa-botao a {
-    color: #FDFCFB;
-    font-size: 18px;
-    font-weight: bold;
-    text-decoration: none;
-}
-/*Seção do buscador*/
+/* Seção do buscador */
 .buscador{
     background: #B6E6F2;
     display: flex;
@@ -276,7 +74,6 @@ body {
 .lupa:hover {
     color: #FDFCFB;
 }
-
 /* Seção de categorias */
 .categorias {
     background: #B6E6F2;
@@ -285,7 +82,6 @@ body {
     flex-direction: row;
     justify-content: space-around;
     padding: 10px 10px;
-    background: #B6E6F2;
 }
 
 .categorias-lista-background{
@@ -317,4 +113,199 @@ body {
 
 .left {
     padding-left: 15px;
+}
+/* Seção do sobre */
+.container-sobre {
+    align-items: center;
+    background: #FDFCFB;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+
+.titulo-sobre {
+    display: flex;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.paragrafo-sobre {
+    display: flex;
+    font-size: 33px;
+    width: 80%;
+}
+/* Seção da campanhas */
+.container-campanhas {
+    align-items: center;
+    background: #FDFCFB;
+    display: flex;
+    justify-content: space-around;
+}
+
+.campanha-agasalhos {
+    align-items: center;
+    background: #73CFE6;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    height: 350px;
+    margin: 20px 0 30px 0;
+    width: 350px;
+}
+
+.campanhas-agasalhos-logo {
+    padding-top: 35px;
+    width: 80%;
+}
+
+.campanha-agasalhos-texto {
+    font-size: 20px;
+    padding-top: 30px;
+    width: 290px;
+}
+
+.campanha-criancas {
+    align-items: center;
+    background: #73CFE6;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    height: 350px;
+    margin: 20px 0 30px 0;  
+    width: 350px; 
+}
+.campanha-criancas-logo {
+    padding-top: 35px;
+    width: 70%;  
+}
+
+.campanha-criancas-texto {
+    font-size: 20px;
+    padding-top: 20px;
+    width: 290px;  
+}
+
+.campanha-volutarios {
+    align-items: center;
+    background: #73CFE6;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    height: 350px;
+    margin: 20px 0 30px 0;
+    width: 350px;     
+}
+
+.campanha-vonluntarios-logo {
+    padding-top: 35px; 
+    width: 70%;   
+}
+
+.campanha-voluntarios-texto {
+    font-size: 20px;
+    padding-top: 20px;
+    width: 290px;   
+}
+/* Seção da galeria de anúncios */
+.container-galeria {
+    background: #FDFCFB;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.galeria-caixa-principal {
+    display: flex;
+    background: #B6E6F2;
+    justify-content: center;
+    padding: 30px 0;
+    width: 100%;
+}  
+
+.galeria-titulo {
+    font-size: 30px;
+    font-weight: bold;  
+}
+
+.anuncio-caixa {
+    align-items: top;
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    height: 290px;
+    justify-content: space-around;
+    margin: 50px;
+    padding: 20px 20px;
+    width: 450px; 
+}
+
+.anuncio-caixa-imagem {
+    display: flex;
+    height: 50%;
+    width: 50%;
+}
+
+.anuncio-caixa-texto {
+    align-items: top;
+    font-size: 18px;
+    padding-bottom: 10px;
+    width: 200px;
+}
+
+.anuncio-caixa-botao {
+    background: #73CFE6;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    padding: 15px 60px;
+    transition: 1s background;
+    width: 50%;
+}
+
+.anuncio-caixa-botao:hover {
+    background: #1B6C80;
+}
+
+.anuncio-caixa-botao a {
+    color: #FDFCFB;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+/* Seção do rodapé */
+.rodape {
+    align-items: center;
+    background: #FDFCFB;
+    border-top: 1px solid;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 30px;
+}
+
+.rodape-copy {
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 50px;
+}
+
+.rodape-menu a {
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.rodape-menu:hover{
+    border-bottom: 2px solid;
+}
+
+.rodape-sociais {
+    width: 40%;
+}
+
+.redes-sociais{
+    display: flex;
+    margin: 0 5px;
+    width: 20%;
 }
