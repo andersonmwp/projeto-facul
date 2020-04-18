@@ -40,7 +40,7 @@ body {
 .buscador{
     background: #B6E6F2;
     display: flex;
-    padding: 20px 30px;
+    padding: 20px 20px;
 }
 
 #buscador-categoria {
@@ -62,9 +62,10 @@ body {
     background: #FDFCFB;
 }
 
-.botao .lupa:hover {
+.botao:hover {
     background: #52C2DE;
     color: #FDFCFB;
+    cursor: pointer;
 }
 
 .lupa {
@@ -75,28 +76,44 @@ body {
     color: #FDFCFB;
 }
 
+/* Seção de categorias */
 .categorias {
+    background: #B6E6F2;
     display: flex;
+    font-size: 20px;
     flex-direction: row;
     justify-content: space-around;
     padding: 10px 10px;
-    font-size: 20px;
     background: #B6E6F2;
 }
 
 .categorias-lista-background{
-    display: flex;
-    width: 70px;
     border-radius: 5px;
+    display: flex;
     padding-left: 10px;
+    width: 70px;
 }
 
 .categorias-lista-titulo {
     display: flex;
-    width: 10px;
-    font-size: 16px;
-    text-decoration: none;
-    justify-content: space-between;
     color: #000000;
+    font-size: 16px;
+    justify-content: space-between;
     padding: 20px 0;
+    text-decoration: none;
+    width: 10px;
+}
+
+.categorias a{
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    min-height: 91px;
+    text-decoration: none;
+    width: 120px;
+}
+
+.left {
+    padding-left: 15px;
 }
