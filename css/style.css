@@ -36,7 +36,7 @@ body {
     border-bottom: 2px solid #FDFCFB;
 }
 
-/*Seção buscador*/
+/*Seção do buscador*/
 .buscador{
     background: #B6E6F2;
     display: flex;
@@ -44,22 +44,22 @@ body {
 }
 
 #buscador-categoria {
-    width: 70%;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
     height: 60px;
     margin-left: 10%;
     padding: 16px 24px;
-    border-radius: 4px;
-    border: none;
-    font-size: 20px;
+    width: 70%;
 }
 
 .botao {
-    width: 5%;
+    background: #FDFCFB;
+    border: none;
+    border-radius: 4px;
     height: 58px;
     margin: 0 3px;
-    border-radius: 4px;
-    border: none;
-    background: #FDFCFB;
+    width: 5%;
 }
 
 .botao:hover {
