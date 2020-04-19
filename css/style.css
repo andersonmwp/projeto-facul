@@ -114,6 +114,10 @@ body {
 .left {
     padding-left: 15px;
 }
+
+.center {
+    text-align: center;
+}
 /* Seção do sobre */
 .container-sobre {
     align-items: center;
