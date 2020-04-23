@@ -1,0 +1,47 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-anuncios {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+
+.anuncios-caixa {
+    border: 1px solid;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+    padding: 20px 20px;
+    width: 800px;
+}
+
+.anuncios-foto {
+    display: flex;
+    width: 35%;
+}
+
+.anuncios-descricao {
+    align-items: center;
+    display: flex;
+    font-size: 18px;
+    text-decoration: none;
+    width: 400px;
+}
+
+.anuncios-descricao a {
+    color: #000;
+    text-decoration: none;
+}
+
+.anuncios-titulo {
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: center;
+    width: 100%;
+}
