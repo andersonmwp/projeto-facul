@@ -1,0 +1,88 @@
+.container-doacoes {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 100px 0;
+}
+
+.doacoes-principal {
+    align-items: center;
+    background: #B6E6F2;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.doacoes-principal-titulo-secundario {
+    align-items: center;
+    display: flex;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 100px;
+    width: 30%;
+}
+
+.doacoes-principal-descricao {
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    margin-right: 100px;
+    width: 60%;
+}
+
+.container-como-doar {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 30px;
+    width: 900px;
+}
+
+.como-doar-titulo {
+    display: flex;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.como-doar-texto {
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+    width: 50%;
+}
+
+.como-doar-img {
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 35%;  
+}
+
+.como-doar-botao {
+    background: #1B6C80;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    margin: 30px 20px;
+    padding: 15px;
+    width: 30%;
+}
+
+.como-doar-botao a {
+    color: #FDFCFB;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.como-doar-botao:hover {
+    background: #73CFE6;
+}
