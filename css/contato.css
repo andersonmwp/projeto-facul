@@ -1,0 +1,68 @@
+.formulario-contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 0;
+    border-top: 1px solid;
+}
+
+.formulario-titulo {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.etiqueta {
+    display: flex;
+    font-size: 20px;
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+#nome {
+    display: flex;
+    font-size: 20px;
+    padding: 10px 10px;
+    width: 30%;
+}
+
+#email {
+    display: flex;
+    font-size: 20px;
+    padding: 10px 10px;
+    width: 30%;
+}
+
+#telefone {
+    display: flex;
+    font-size: 20px;
+    padding: 10px 10px;
+    width: 30%;
+}
+
+#mensagem {
+    display: flex;
+    font-size: 20px;
+    padding: 10px 10px;
+    width: 30%;
+}
+
+.formulario-botao {
+    font-size: 25px;
+    color: #FDFCFB;
+    width: 15%;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border-radius: 50px;
+    border: none;
+    background: #73CFE6;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.formulario-botao:hover {
+    background: #1B6C80;
+}
