@@ -1,0 +1,71 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tela-login {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.login {
+    align-items: center;
+    border: 2px solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 450px;
+    width: 320px;
+}
+
+.login-usuário {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-titulo {
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.login-usuario-dados {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+#usuario-senha-input {
+    padding: 8px;
+    width: 100%;
+}
+
+.botao-login {
+    background: #FF9900;
+    border: none;
+    border-radius: 15px;
+    color: #FDFCFB;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 10px 0;
+    padding: 8px 0;
+    transition: 1s;
+    width: 100%;
+}
+
+.botao-login:hover {
+    background: #B57311;
+}
+.login-usuario-link {
+    color: #000000;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.login-usuario-link:hover {
+    color: #0865F1;
+}
