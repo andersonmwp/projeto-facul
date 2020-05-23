@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de anúncio | Sem Nome</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/anunciar.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <section class="anunciar">
+            <div class="anunciar-titulo">
+                <h1>"Sem Nome"</h1>
+            </div>
+
+            <div class="anunciar-caixa">
+                <h2 class="anunciar-texto">Vamos criar seu anúncio!</h2>
+
+                <form action="" class="anunciar-formulario">
+                    <input type="text" name="" id="anunciar-titulo" required placeholder="Título do anúncio">
+
+                    <textarea name="" id="anunciar-campo" cols="30" rows="10" required placeholder="Descreva seu anúncio"></textarea>
+                </form>
+
+                <select class="custom-select custom-select-lg mb-3">
+                    <option selected>Selecione a categoria</option>
+                    <option value="1">Alimentação</option>
+                    <option value="2">Roupas</option>
+                    <option value="3">Móveis</option>
+                    <option value="4">Brinquedos</option>
+                    <option value="5">Serviços Voluntários</option>
+                  </select>
+
+                  <form>
+                    <div class="form-group">
+                      <label for="exampleFormControlFile1">Escolha as fotos</label>
+                      <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                    </div>
+                  </form>
+            </div>
+
+            <input type="submit" id="anunciar-botao" value="Enviar anúncio">
+
+        </section>
+    </main>
+</body>
+</html>

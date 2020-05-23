@@ -1,0 +1,59 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.anunciar {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.anunciar-caixa {
+    border: 1px solid;
+    padding: 50px;
+}
+
+.anunciar-titulo h1 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.anunciar-texto {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 100vh;
+}
+
+.anunciar-formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#anunciar-titulo, 
+#anunciar-campo {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+#anunciar-botao {
+    background: #73CFE6;
+    border: none;
+    border-radius: 50px;
+    color: #FDFCFB;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px;
+    padding: 10px 0;
+    transition: background 1s;
+    width: 30%;    
+}
+
+#anunciar-botao:hover {
+    background: #1B6C80;
+}
