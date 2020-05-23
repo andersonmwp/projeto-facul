@@ -59,7 +59,7 @@
     border-radius: 50px;
     border: none;
     background: #73CFE6;
-    transition: 1s;
+    transition: background 1s;
     cursor: pointer;
 }
 
