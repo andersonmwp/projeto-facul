@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de usuários | "Sem Nome"</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/cadastro.css" rel="stylesheet">
+</head>
+<body>
+    <header class="cabecalhoPrincipal">
+        <section>
+            <div class="container">
+                <h1 class="cabecalhoPrincipal-titulo">
+                    <a class="cabecalhoPrincipal-titulo-a" href="index.html">"Sem Nome"</a>
+                </h1>
+                
+                <nav>
+                    <ul class="cabecalhoPrincipal-nav">
+                        <li class="cabecalhoPrincipal-nav-link"><a class="cabecalhoPrincipal-nav-link-a" href="index.html">Início</a></li>
+                        <li class="cabecalhoPrincipal-nav-link"><a class="cabecalhoPrincipal-nav-link-a" href="sobre-doacoes.html">Doações</a></li>
+                        <li class="cabecalhoPrincipal-nav-link"><a class="cabecalhoPrincipal-nav-link-a" href="#">Chat</a></li>
+                        <li class="cabecalhoPrincipal-nav-link"><a class="cabecalhoPrincipal-nav-link-a" href="anunciar.html">Anunciar</a></li>
+                        <li class="cabecalhoPrincipal-nav-link"><a class="cabecalhoPrincipal-nav-link-a" href="login.html">Minha Conta</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section>
+            <div class="formulario-cadastro">
+                <h2 class="form-titulo"> Preencher o formulário de cadastro</h2>
+
+                <form action="" class="formulario">
+                    <label class="etiqueta" for="form-nome">Nome</label>
+                    <input type="text" id="form-nome" class="formulario-input" required>
+
+                    <label class="etiqueta" for="form-email">E-mail</label>
+                    <input type="email" id="form-email" class="formulario-input" required>
+
+                    <label class="etiqueta" for="form-senha">Senha</label>
+                    <input type="password" id="form-senha" class="formulario-input" required>
+
+                    <label class="etiqueta" for="form-senha">Confirmar senha</label>
+                    <input type="password" id="form-senha" class="formulario-input" required>
+
+                    <label class="etiqueta" for="cpf-cnpj">CPF ou CNPJ</label>
+                    <select name="" id="cpf-cnjp" class="formulario-input" required>
+                        <option>Escolha qual opção</option>
+                        <option>CPF</option>
+                        <option>CNPJ</option>
+                    </select>
+
+                    <label class="etiqueta" for="form-cep">CEP</label>
+                    <input type="text" id="form-cep" class="formulario-input" required>
+
+                    <label class="etiqueta" for="form-endereco">Endereço</label>
+                    <input type="tex" id="form-endereco" class="formulario-input" required>
+
+                    <label class="etiqueta" for="form-bairro">Bairro</label>
+                    <input type="text" id="form-bairro" class="formulario-input" required>
+
+                    <label class="etiqueta" for="form-cidade">Cidade</label>
+                    <input type="text" id="form-cidade" class="formulario-input" required>
+
+                    <div class="form">
+                        <label class="form-etiqueta" for="form-numero">Número</label>
+                        <input type="text" id="form-numero" class="form-number" required>
+
+                        <label class="form-etiqueta" for="form-complemento">Complemento</label>
+                        <input type="text" id="form-complemento" class="form-complemento" required>
+                    </div>
+                    
+
+                    <label class="etiqueta" for="form-Estado">Estado</label>
+                    <input type="text" id="form-estado" class="formulario-input" required>
+                </form>
+
+                <input type="submit" value="Enviar cadastro" class="formulario-botao">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="rodape">
+            <p class="rodape-copy">Copyright &copy; 2020 "Sem Nome" Todos os direitos reservados</p>
+
+            <p class="rodape-menu"><a href="quem-somos.html">Quem Somos</a></p>
+            <p class="rodape-menu"><a href="contato.html">Contato</a></p>
+
+            <div class="redes-sociais">
+            <a href="#"><img class="rodape-sociais" src="img/facebook.png" alt="logo do facebook"></a>
+            <a href="#"><img class="rodape-sociais" src="img/instagram.png" alt="logo do instagram"></a>
+            <a href="#"><img class="rodape-sociais" src="img/twitter.png" alt="logo do twitter"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,82 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.formulario-cadastro,
+.formulario {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
+
+.formulario {
+    border: 1px solid;
+    padding: 30px
+}
+
+.form-titulo {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.formulario-input {
+    font-size: 18px;
+    margin-bottom: 30px;
+    padding: 8px 10px;
+    width: 80vh;
+}
+
+.etiqueta {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.form {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.form-number {
+    font-size: 18px;
+    margin: 20px 0;
+    padding: 8px 10px;
+    width: 6%;
+}
+
+.form-complemento {
+    font-size: 18px;
+    margin: 20px 0;
+    padding: 8px 10px;
+    width: 22%;
+}
+
+.form-etiqueta {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 15px;
+}
+
+.formulario-botao {
+    background: #73CFE6;
+    border: none;
+    border-radius: 50px;
+    color: #FDFCFB;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 20px 0;
+    transition: background 1s;
+    width: 50vh;
+}
+
+.formulario-botao:hover {
+    background: #1B6C80;
+}
