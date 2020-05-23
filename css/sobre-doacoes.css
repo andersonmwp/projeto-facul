@@ -1,3 +1,7 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .container-doacoes {
     align-items: center;
     display: flex;
