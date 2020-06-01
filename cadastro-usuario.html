@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -48,15 +49,20 @@
                     <label class="etiqueta" for="form-senha">Confirmar senha</label>
                     <input type="password" id="form-senha" class="formulario-input" required>
 
-                    <label class="etiqueta" for="cpf-cnpj">CPF ou CNPJ</label>
-                    <select name="" id="cpf-cnjp" class="formulario-input" required>
-                        <option>Escolha qual opção</option>
-                        <option>CPF</option>
-                        <option>CNPJ</option>
-                    </select>
+                    <label class="etiqueta" for="form-telefone">Telefone</label>
+                    <input type="tel" id="form-telefone" class="formulario-input" required maxlength="11"> 
+
+                    <div class="form">
+                        <label class="etiqueta" for="cpf-cnpj">CPF ou CNPJ</label>
+                        <select name="" id="cpf-cnjp" class="form-select"required>
+                            <option>CPF</option>
+                            <option>CNPJ</option>
+                        </select>
+                        <input type="text" id="cpf-cnjp" class="form-cpf" required maxlength="11">
+                    </div>
 
                     <label class="etiqueta" for="form-cep">CEP</label>
-                    <input type="text" id="form-cep" class="formulario-input" required>
+                    <input type="text" id="form-cep" class="formulario-input" required maxlength="8">
 
                     <label class="etiqueta" for="form-endereco">Endereço</label>
                     <input type="tex" id="form-endereco" class="formulario-input" required>
